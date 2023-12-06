@@ -602,13 +602,20 @@ video {
         padding: 30px 0;
     }
 
-    .check_item {
+    .check{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    /* .check_item {
 
         width: 100%;
         border: none;
         padding: none;
         justify-content: center;
-    }
+    } */
 
     .contenedor-footer {
         flex-direction: row;
@@ -622,7 +629,7 @@ video {
         justify-content: space-around;
     }
 
-    .buttons a {
+   /*  .buttons a {
         font-size: 23px;
         width: 45px;
         height: 45px;
@@ -630,7 +637,7 @@ video {
         line-height: 45px;
         text-align: center;
     }
-
+ */
 
 
 }
